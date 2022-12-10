@@ -19,6 +19,10 @@ export async function saveState(state: any) {
   }
 }
 
+const myNewFunction = () => {
+    return "HELLO!";
+}
+
 export type Todo = {
     id: string;
     title: string;
