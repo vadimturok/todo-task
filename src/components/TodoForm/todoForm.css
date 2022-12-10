@@ -1,0 +1,27 @@
+.todoForm{
+    display: flex;
+}
+.todoInput{
+    width: 80%;
+    outline: none;
+    padding: 5px;
+    border: none;
+    border: 1px solid lightgray;
+}
+
+.todoButton{
+    width: 20%;
+    padding: 6px;
+    outline: none;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+.todoButton:hover{
+    background-color: rgb(58, 110, 207);
+}
+.todoButton:disabled{
+    background-color: rgba(100, 148, 237, 0.593);
+    cursor: unset;
+}

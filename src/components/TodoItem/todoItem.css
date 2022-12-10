@@ -1,0 +1,38 @@
+.todoItem{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.todoItemInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.todoItemActions{
+    display: flex;
+    gap: 5px;
+}
+
+.actionsButton{
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.editButton{
+    background-color: green;
+}
+
+.editButton:hover{
+    background-color: rgb(4, 88, 4);
+}
+
+.removeButton{
+    background-color: red;
+}
+.removeButton:hover{
+    background-color: rgb(146, 4, 4);
+}
